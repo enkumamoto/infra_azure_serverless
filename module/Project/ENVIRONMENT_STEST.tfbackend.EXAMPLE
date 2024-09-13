@@ -1,0 +1,4 @@
+resource_group_name  = "RG-Storage_TFstate"
+storage_account_name = "tfstatstorageaccount"
+container_name       = "tfstate"
+key                  = "projectadds.tfstate"

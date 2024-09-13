@@ -1,0 +1,6 @@
+environment             = "sandbox"
+rdx_project_alias       = "radix-project-alias"
+rdx_project_code        = "radix-project-code"
+rdx_project_cost_center = "radix-cost-center"
+rdx_project_pep         = "radix-pep"
+location                = "eastus"
