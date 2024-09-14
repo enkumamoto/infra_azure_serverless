@@ -1,3 +1,3 @@
 environment   = "sandbox"
-project_alias = "blackstonetest"
+project_alias = "obsidiantest"
 location      = "eastus"

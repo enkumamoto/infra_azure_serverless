@@ -1,4 +1,4 @@
-resource_group_name  = "RG-Blackstone-Storage_TFstate"
-storage_account_name = "BLKSTNtfstatstorageaccount"
-container_name       = "blackstonetfstate"
+resource_group_name  = "RG-obsidian-Storage_TFstate"
+storage_account_name = "obsidiantfstatestg"
+container_name       = "obsidiantfstate"
 key                  = "projectadds.tfstate"
