@@ -23,7 +23,7 @@ export TAGS="managedBy=EijiKumamoto"
 # export ARM_TENANT_ID=ARM_TENANT_ID
 export ARM_SUBSCRIPTION_ID=ARM_SUBSCRIPTION_ID
 
-export ARM_ACCESS_KEY=$(az keyvault secret show --name obsidian-terraform-backend-key --vault-name obsidianKeyVault --query value -o tsv)
+# export ARM_ACCESS_KEY=$(az keyvault secret show --name obsidian-terraform-backend-key --vault-name obsidianKeyVault --query value -o tsv)
 
 ACCOUNT_KEY=$(az storage account keys list --resource-group $RESOURCE_GROUP_NAME --account-name $STORAGE_ACCOUNT_NAME --query '[0].value' -o tsv)
 export ARM_ACCESS_KEY=$ACCOUNT_KEY
