@@ -89,7 +89,7 @@ Camada de orquestração que chama o módulo infra.
 
 main.tf:
 
-````t
+```t
 module "Project" {
 source = "../infra"
 project_alias = var.project_alias
@@ -115,8 +115,10 @@ Responsável por:
 
 🔹 .tfvars
 ```
+
 ENVIRONMENT_STEST.tfvars
 ENVIRONMENT_STEST.tfvars.EXAMPLE
+
 ````
 
 Contém variáveis como:
@@ -133,7 +135,7 @@ Contém variáveis como:
 
 ```bash
 cp ENVIRONMENT_STEST.tfvars.EXAMPLE ENVIRONMENT_STEST.tfvars
-```
+````
 
 🔹 .tfbackend
 
@@ -240,3 +242,7 @@ terraform apply -var-file=ENVIRONMENT_STEST.tfvars
 - Azure CLI autenticado
 
 - az login
+
+```
+
+```
