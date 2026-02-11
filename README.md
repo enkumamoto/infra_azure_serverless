@@ -89,7 +89,7 @@ Camada de orquestração que chama o módulo infra.
 
 main.tf:
 
-```t
+```
 module "Project" {
 source = "../infra"
 project_alias = var.project_alias
@@ -99,7 +99,7 @@ rg_name = "${var.project_alias}-Project"
   service_plan  = "${var.project_alias}SP"
 storacc_name = "${var.project_alias}storacc"
 }
-´´´
+```
 
 Responsável por:
 
@@ -114,12 +114,13 @@ Responsável por:
 ---
 
 🔹 .tfvars
+
 ```
 
 ENVIRONMENT_STEST.tfvars
 ENVIRONMENT_STEST.tfvars.EXAMPLE
 
-````
+```
 
 Contém variáveis como:
 
@@ -135,7 +136,7 @@ Contém variáveis como:
 
 ```bash
 cp ENVIRONMENT_STEST.tfvars.EXAMPLE ENVIRONMENT_STEST.tfvars
-````
+```
 
 🔹 .tfbackend
 
