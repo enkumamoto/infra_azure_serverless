@@ -85,8 +85,6 @@ Módulo responsável por criar os recursos Azure:
 
 📂 module/Project
 
----
-
 Camada de orquestração que chama o módulo infra.
 
 main.tf:
